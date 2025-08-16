@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom gradient backgrounds */
+.gradient-rose {
+  background: linear-gradient(135deg, #f43f5e 0%, #ec4899 100%);
+}
+
+/* Improved button hover effects */
+.btn-primary {
+  @apply bg-rose-500 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:bg-rose-600 hover:scale-105 shadow-lg hover:shadow-xl;
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply transition-all duration-300 transform hover:shadow-xl hover:-translate-y-2;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition-property: transform, box-shadow, background-color, border-color, color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f43f5e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
+
+/* Loading animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(244, 63, 94, 0.6);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
