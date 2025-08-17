@@ -59,7 +59,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Sparkles className="w-8 h-8 text-rose-500" />
-              <span className="text-xl font-bold text-gray-900">Bella Kauneus</span>
+              <span className="text-xl font-bold text-gray-900">Glow Kauneus</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#palvelut" className="text-gray-700 hover:text-rose-500 transition-colors">Palvelut</a>
@@ -87,7 +87,7 @@ function App() {
                   Löydä <span className="text-rose-500">Luonnollinen</span> Kauneutesi
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Ammattitaitoisia kauneushoitoja sydämessä Helsinkiä. Varaa aikasi jo tänään ja koe ero, jonka huippulaatuinen hoito tekee.
+                  Ammattitaitoisia kauneushoitoja sydämessä Mikkeliä. Varaa aikasi jo tänään ja koe ero, jonka huippulaatuinen hoito tekee.
                 </p>
               </div>
 
@@ -289,7 +289,7 @@ function App() {
               Mitä Asiakkaamme Sanovat
             </h2>
             <p className="text-xl text-gray-600">
-              Yli 500 tyytyväistä asiakasta ympäri Helsinkiä
+              Yli 500 tyytyväistä asiakasta ympäri Mikkeliä
             </p>
           </div>
 
@@ -349,10 +349,10 @@ function App() {
             </div>
             <div className="space-y-6">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                Tervetuloa Bella Kauneuteen
+                Tervetuloa Glow Kauneuteen
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Olemme toimineet Helsingin sydämessä yli 10 vuotta ja palvelleet tuhansia tyytyväisiä asiakkaita. Tiimimme koostuu sertifioiduista kauneusasiantuntijoista, jotka jatkuvasti kehittävät osaamistaan.
+                Olemme toimineet Mikkelin sydämessä yli 10 vuotta ja palvelleet tuhansia tyytyväisiä asiakkaita. Tiimimme koostuu sertifioiduista kauneusasiantuntijoista, jotka jatkuvasti kehittävät osaamistaan.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Uskomme, että jokainen ansaitsee tuntea itsensä kauniiksi ja itsevarmaaseksi. Siksi tarjoamme aina henkilökohtaista palvelua ja räätälöimme hoidot juuri sinun tarpeisiisi.
@@ -422,10 +422,10 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Sparkles className="w-6 h-6 text-rose-500" />
-                <span className="text-xl font-bold">Bella Kauneus</span>
+                <span className="text-xl font-bold">Glow Kauneus</span>
               </div>
               <p className="text-gray-400">
-                Helsingin luotettavin kauneussalong jo yli 10 vuoden ajan.
+                Mikkelin luotettavin kauneussalong jo yli 10 vuoden ajan.
               </p>
             </div>
             
@@ -434,7 +434,7 @@ function App() {
               <div className="space-y-2 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-4 h-4" />
-                  <span>Mannerheimintie 12, Helsinki</span>
+                  <span>Porrassalmenkatu 15, Mikkeli</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
@@ -442,7 +442,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>info@bellakauneus.fi</span>
+                  <span>info@glowkauneus.fi</span>
                 </div>
               </div>
             </div>
@@ -468,7 +468,7 @@ function App() {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Bella Kauneus. Kaikki oikeudet pidätetään.</p>
+            <p>&copy; 2025 Glow Kauneus. Kaikki oikeudet pidätetään.</p>
           </div>
         </div>
       </footer>
